@@ -3,7 +3,7 @@ from conversores_temp import converter_temperatura
 
 # test_conversor.py
 import pytest
-from conversor import converter_temperatura
+from conversores_temp import converter_temperatura
 
 @pytest.mark.parametrize("valor, de_escala, para_escala, esperado", [
     (0, 'Celsius', 'Fahrenheit', 32),
