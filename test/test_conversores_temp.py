@@ -20,6 +20,8 @@ def test_converter_temperatura(valor, de_escala, para_escala, esperado):
     # Usando aproximação para floats
     assert resultado == pytest.approx(esperado, abs=1e-4)
 
+
+
     
 
 
